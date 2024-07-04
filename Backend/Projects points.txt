@@ -1,0 +1,194 @@
+
+
+// Array of Objjects for postmandata by key value pair[
+//     {
+//         "airport": {
+//             "airport_name": "ansari 1",
+//             "airport_city": "Una",
+//             "airport_country": "Ajay",
+//             "is_deleted": false
+//         },
+//         "flight_details": {
+//             "airoplane_type": "saddam Type 1",
+//             "source_airport_id": null
+//         }
+//     }
+// ]
+
+FACEBOOK
+name: Husen Ansari
+ansarihusen.21031995@gmail.com
+21031995#husen$4344
+
+.....
+
+GMAIL
+ansarihusen.21031995@gmail.com
+21031995@husen$4344
+
+sd@eternalsoftsolutions.com
+eternal#saddam$4344
+
+Passangers:
+
+{
+    "first_name": "ansari1",
+    "last_name": "Una",
+    "email": "A131313jay@gmail.com",
+    "contact_number": "ssssss",
+    "address": "51515151515151",
+    "city": "Ajay",
+    "state": 55555,
+    "zipcode": 321256,
+    "country": "ansari 1"
+}
+
+Airports:
+
+{
+  "airport_name": "Saddam",
+  "airport_city": "Dilhi",
+  "airport_country": "Country"
+}
+
+
+Booking Detail
+{
+  "travel_class": "Business",
+  "date_of_resevation": "Dilhi",
+  "booking_no": "Country",
+   "city": "Saddam",
+  "cost": 5000,
+  "service": "Food",
+   "flight_model_id": "Saddam",
+  "passanger_model_id": "Dilhi"
+}
+
+flight detail 
+{
+"source_airport_id": "gvdfgdfgdfgd",
+"departure_date_time": "2-5-2024",
+"arrival_date_time": "2-5-2024",
+"airoplane_type": "saddam"}
+
+payment status:
+
+{
+"payment_status":"Yes",
+"payment_due_date":"2-2-2022",
+"payment_amount":5000,
+"resevation_id":"fsgsr65dwgsf"
+}
+
+  
+  
+User table  For sign-up routes
+{
+"user_name":"HUSENBHAI",
+"email":"HUSENBHAI@gmail.com",
+"password":"6546saf84646",
+"roles":["user", "admin", "moderator"]
+}
+
+TERMINAL PATH :  cd Pictures/Saddam/Flight Booking System/Backend
+  
+
+
+-----------------------------  .env FILE -----------------
+PORT=8000
+DB_HOST=localhost
+DB_NAME=flight_booking_aap
+DB_USER=sadam
+DB_PASSWORD=eternal@123
+DB_SOCKET_PATH=/var/run/mysqld/mysqld.sock
+SECRET=ansari-saddam-husen
+
+
+
+
+
+
+
+GMAIL ACCOUNT
+
+Eternal Ansari
+eternalansari@gmail.com
+eternal@123
+
+
+Facebook
+Name: sd Ansari
+eternalansari@gmail.com
+eternal@123
+
+sd@eternalsoftsolutions.com
+eternal#saddam$4344
+
+Meta business account: 
+Eternal-Odoo
+
+
+Ansari Faruk
+Ansari
+saddam123@123
+
+
+
+....................................
+
+
+user name :sdm ansari
+ansarihusen.21031995@gmail.com
+eternal@saddam
+
+
+
+....................................................
+
+
+
+GMAIL: 
+
+eternalahmedabadsindhubavan@gmail.com
+sindhubhavan@123
+
+
+
+FACEBOOK:
+USERNAME : Faizan Sheikh 
+eternalahmedabadsindhubavan@gmail.com
+sindhubhavan@123
+
+............................................
+Facebook 
+Husen Ansari
+sd@eternalsoftsolutions.com
+
+
+eternal#saddam$4344
+
+hiren@eternalsoftsolutions.com
+
+Teamwork
+sd@eternalsoftsolutions.com
+saddam78692
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

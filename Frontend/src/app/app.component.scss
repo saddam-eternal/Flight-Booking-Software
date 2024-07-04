@@ -1,0 +1,66 @@
+#addressForm {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #7915d2, #55db0c);
+  color: black;
+}
+
+#addressForm h2 {
+  text-align: center;
+}
+
+#addressForm label {
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(140, 252, 4);
+}
+
+#addressForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.8); /* Changed opacity for better readability */
+  color: black;
+}
+
+#addressForm p {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+#addressForm button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#addressForm button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  flex-basis: calc(50% - 10px); /* Adjust the width based on your design */
+}
+
+label,
+input,
+button {
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width */
+}

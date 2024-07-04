@@ -1,0 +1,105 @@
+<!-- <div id="addressForm">
+
+	<h2>Passangers Detail</h2>
+
+	<form [formGroup]="profileForm" (ngSubmit)="submit()">
+
+		<label for="first_name">First Name: </label>
+		<input id="first_name" type="text" formControlName="first_name">
+
+		<label for="last_name">Last Name: </label>
+		<input id="last_name" type="text" formControlName="last_name">
+
+		<label for="email">Email: </label>
+		<input id="email" type="text" formControlName="email">
+
+		<label for="contact_number">Contact No: </label>
+		<input id="contact_number" type="text" formControlName="contact_number">
+
+		<label for="address">Address: </label>
+		<input id="address" type="text" formControlName="address">
+
+		<label for="country">Country: </label>
+		<input id="country" type="text" formControlName="country">
+
+		<label for="city">City: </label>
+		<input id="city" type="text" formControlName="city">
+
+		<label for="state">State: </label>
+		<input id="state" type="text" formControlName="state">
+
+		<label for="zipcode">Zip Code: </label>
+		<input id="zipcode" type="text" formControlName="zipcode">
+
+		<label for="country">Country: </label>
+		<input id="country" type="text" formControlName="country">
+
+		<p>Complete the form to enable button.</p>
+		<button type="submit" [disabled]="!profileForm.valid">Submit</button>
+	</form>
+</div> -->
+
+
+<div id="addressForm">
+
+	<h2>Passengers Detail</h2>
+
+	<form [formGroup]="profileForm" (ngSubmit)="submit()" class="horizontal-form">
+
+		<div class="form-row">
+			<div class="form-group">
+				<label for="first_name">First Name:</label>
+				<input id="first_name" type="text" formControlName="first_name">
+			</div>
+			<div class="form-group">
+				<label for="last_name">Last Name:</label>
+				<input id="last_name" type="text" formControlName="last_name">
+			</div>
+		</div>
+
+		<div class="form-row">
+			<div class="form-group">
+				<label for="contact_number">Contact No:</label>
+				<input id="contact_number" type="text" formControlName="contact_number">
+			</div>
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input id="email" type="text" formControlName="email">
+			</div>
+		</div>
+
+		<div class="form-row">
+			<div class="form-group">
+				<label for="address">Address:</label>
+				<input id="address" type="text" formControlName="address">
+			</div>
+		</div>
+
+		<div class="form-row">
+			<div class="form-group">
+				<label for="country">Country:</label>
+				<input id="country" type="text" formControlName="country">
+			</div>
+			<div class="form-group">
+				<label for="state">State:</label>
+				<input id="state" type="text" formControlName="state">
+			</div>
+		</div>
+
+		<div class="form-row">
+			<div class="form-group">
+				<label for="city">City:</label>
+				<input id="city" type="text" formControlName="city">
+			</div>
+			<div class="form-group">
+				<label for="zipcode">Zip Code:</label>
+				<input id="zipcode" type="text" formControlName="zipcode">
+			</div>
+		</div>
+
+		<p>Complete the Personal detail to enable button.</p>
+
+		<button type="submit" [disabled]="!profileForm.valid">Submit</button>
+
+	</form>
+</div>
